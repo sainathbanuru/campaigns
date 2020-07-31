@@ -1,0 +1,130 @@
+.App {
+}
+
+.marginTop {
+  margin-top: 16px;
+}
+
+.marginBottom {
+  margin-bottom: 16;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.justifySpaceBetween {
+  justify-content: space-between;
+}
+
+.inputBox {
+  flex: 1;
+  padding: 8px 12px;
+  margin-right: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.buttonStyle {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.paginationItem {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.headerElementsList {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.headerElement {
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.headerElementLink {
+  text-decoration: none;
+  color: #121212;
+}
+
+.borderTop {
+  border-top: 1px solid #ddd;
+}
+
+.tableRowStyle {
+  display: grid;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.updateButton {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancelText {
+  text-align: center;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.popupContentContainer {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.popupOverlay {
+  position: absolute;
+  top: 0;
+  background-color: rgb(18, 18, 18, 0.3);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+.inputLabel {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  margin-top: 24px;
+}
